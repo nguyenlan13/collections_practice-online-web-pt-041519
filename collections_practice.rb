@@ -40,7 +40,7 @@ end
 
 def add_s (array)
   array.collect do |plural|
-  "#{plural}s"-[2]
+  "#{plural}s"
   end
   
 end
