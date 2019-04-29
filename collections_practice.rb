@@ -39,7 +39,7 @@ def sum_array (array)
 end
 
 def add_s (array)
-  array.collect do |plural !="feet"|
+  array.collect do |plural|
   "#{plural}s"
   end
   
