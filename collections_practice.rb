@@ -42,6 +42,5 @@ def add_s (array)
   array.each_with_index.collect do |s|
    return array("#{s}s")
   end
-  array
 end
     
