@@ -42,6 +42,6 @@ def add_s (array)
   array.each_with_index.collect{|element, index| if #{element} != 'feet'}
    
   end
-  
+  "#{element}s"
 end
     
