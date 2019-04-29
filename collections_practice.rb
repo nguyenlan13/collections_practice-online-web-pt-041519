@@ -33,5 +33,6 @@ def find_a (array)
 end
 
 def sum_array (array)
-  array.collect do |
+  array.collect do |words|
+    words.sum
     
