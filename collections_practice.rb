@@ -40,10 +40,11 @@ end
 
 def add_s (array)
   array.each_with_index.collect{|element, index|} 
-  if index !=[1]
-    "element" = "element"+ "s"
-  else
-    "element" ="element"
+    if index !=[1]
+      "element" = "element"+ "s"
+    else
+      "element" ="element"
+    end
   end
 end
     
