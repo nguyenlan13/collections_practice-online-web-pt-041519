@@ -39,8 +39,8 @@ def sum_array (array)
 end
 
 def add_s (array)
-  array.collect do |s|
+  array.collect do |plural|
   end
-  array(#{s}+"s")
+  array+"s"
 end
     
