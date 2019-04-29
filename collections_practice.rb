@@ -39,9 +39,8 @@ def sum_array (array)
 end
 
 def add_s (array)
- 
   array.each_with_index.collect{|element, index|} 
-  if #{element}!=[1]
+  if index!=[1]
    "#{element}s"
   end
   array
