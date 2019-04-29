@@ -40,7 +40,7 @@ end
 
 def add_s (array)
   array.collect do |plural|
-    !="feet"
+  plural  !="feet"
   "#{plural}s"
   end
   
