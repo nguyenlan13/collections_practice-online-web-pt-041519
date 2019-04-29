@@ -40,7 +40,8 @@ end
 
 def add_s (array)
  
-  array.each_with_index.collect{|element, index|} if #{element}!=[1]
+  array.each_with_index.collect{|element, index|} 
+  if #{element}!=[1]
    "#{element}s"
   end
   array
