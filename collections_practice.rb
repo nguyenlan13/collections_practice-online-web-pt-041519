@@ -34,8 +34,8 @@ end
 
 def sum_array (array)
   array.collect do |words|
-    array.sum
+    
   end
-  
+  array.sum
 end
     
