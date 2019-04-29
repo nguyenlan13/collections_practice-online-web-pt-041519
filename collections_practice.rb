@@ -39,7 +39,7 @@ def sum_array (array)
 end
 
 def add_s (array)
-  array.collect do |plural|
+  [0,2,3].array.each_with_index.collect do |plural|
   "#{plural}s"
   end
   
